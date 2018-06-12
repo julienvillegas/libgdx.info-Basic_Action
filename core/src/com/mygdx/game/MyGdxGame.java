@@ -12,7 +12,6 @@ import com.badlogic.gdx.scenes.scene2d.actions.ParallelAction;
 import com.badlogic.gdx.scenes.scene2d.actions.RepeatAction;
 import com.badlogic.gdx.scenes.scene2d.actions.SequenceAction;
 import com.badlogic.gdx.scenes.scene2d.ui.Image;
-import com.badlogic.gdx.scenes.scene2d.ui.Skin;
 import com.badlogic.gdx.utils.viewport.ScreenViewport;
 
 public class MyGdxGame extends ApplicationAdapter {
@@ -21,7 +20,6 @@ public class MyGdxGame extends ApplicationAdapter {
 	@Override
 	public void create () {
 		stage = new Stage(new ScreenViewport());
-		Skin skin = new Skin(Gdx.files.internal("skin/glassy-ui.json"));
 
 		Texture texture = new Texture(Gdx.files.absolute("image.jpg"));
 
