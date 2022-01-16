@@ -21,7 +21,7 @@ public class MyGdxGame extends ApplicationAdapter {
 	public void create () {
 		stage = new Stage(new ScreenViewport());
 
-		Texture texture = new Texture(Gdx.files.absolute("image.jpg"));
+		Texture texture = new Texture(Gdx.files.internal("image.jpg"));
 
 		int X_left= Gdx.graphics.getWidth()/3-texture.getWidth()/2;
 		int X_right = Gdx.graphics.getWidth()*2/3-texture.getWidth()/2;
